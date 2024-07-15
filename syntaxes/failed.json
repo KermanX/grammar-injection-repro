@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "fileTypes": [],
+  "injectionSelector": "L:fenced_code.block.language.attributes.markdown",
+  "patterns": [
+    {
+      "match": ".+",
+      "name": "constant.numeric.test"
+    }
+  ],
+  "scopeName": "failed.injection.test"
+}

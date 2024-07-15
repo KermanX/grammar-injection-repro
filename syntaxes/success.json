@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "fileTypes": [],
+  "injectionSelector": "L:entity.name.section.markdown",
+  "patterns": [
+    {
+      "match": ".+",
+      "name": "constant.numeric.test"
+    }
+  ],
+  "scopeName": "success.injection.test"
+}

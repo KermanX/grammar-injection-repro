@@ -1,0 +1,30 @@
+{
+  "name": "test-injection",
+  "displayName": "Test Injection",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/failed.json",
+        "scopeName": "failed.injection.test",
+        "injectTo": [
+          "text.html.markdown"
+        ]
+      },
+      {
+        "path": "./syntaxes/success.json",
+        "scopeName": "success.injection.test",
+        "injectTo": [
+          "text.html.markdown"
+        ]
+      }
+    ]
+  }
+}
